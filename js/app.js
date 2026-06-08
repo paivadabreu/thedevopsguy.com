@@ -5,7 +5,8 @@ const App = (() => {
   };
 
   const fetchJson = async (path) => {
-    const response = await fetch(path);
+    const separator = path.includes('?') ? '&' : '?';
+    const response = await fetch(`${path}${separator}v=20260608j`);
     if (!response.ok) throw new Error(`Unable to load ${path}`);
     return response.json();
   };
