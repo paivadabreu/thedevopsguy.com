@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JOSHBITTER.COM</title>
+    <meta name="description" content="A Windows Terminal inspired CV portfolio.">
+    <link rel="icon" type="image/png" href="assets/profile.png">
+    <link rel="preload" href="css/style.css?v=20260608d" as="style">
+    <link rel="stylesheet" href="css/style.css?v=20260608d">
+  </head>
+  <body>
+    <main class="desktop" aria-label="Windows Terminal portfolio">
+      <div class="site-label" aria-hidden="true">JOSHBITTER.COM</div>
+      <section class="terminal-window" aria-label="Portfolio terminal application">
+        <header class="titlebar">
+          <nav class="tabs" aria-label="Terminal tabs">
+            <button class="tab is-active profile-tab" type="button" data-tab="profile" aria-selected="true">Profile</button>
+            <button class="tab projects-tab" type="button" data-tab="projects" aria-selected="false">Projects</button>
+            <button class="tab blog-tab" type="button" data-tab="blog" aria-selected="false">Blog</button>
+            <button class="tab certifications-tab" type="button" data-tab="contact" aria-selected="false">Contact</button>
+          </nav>
+          <button class="mobile-tab-toggle" type="button" aria-label="Open tab menu" aria-expanded="false"><span></span></button>
+          <div class="titlebar-actions" aria-hidden="true">
+            <span class="new-tab"></span>
+            <span class="tab-menu"></span>
+          </div>
+          <div class="window-controls" aria-hidden="true">
+            <span class="control minimize"></span>
+            <span class="control maximize"></span>
+            <span class="control close"></span>
+          </div>
+        </header>
+        <div class="terminal-content" id="terminal" tabindex="0" aria-live="polite"></div>
+      </section>
+    </main>
+    <noscript>This portfolio requires JavaScript to recreate the terminal sessions.</noscript>
+    <script src="js/markdown.js?v=20260608i"></script>
+    <script src="js/typewriter.js?v=20260608c"></script>
+    <script src="js/terminal.js?v=20260608c"></script>
+    <script src="js/tabs.js?v=20260608h"></script>
+    <script src="js/app.js?v=20260608h"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Multi-Cloud Strategy",
+    "slug": "multi-cloud-strategy",
+    "description": "Designed and led enterprise Azure, AWS, and GCP hybrid cloud strategies, improving scalability, resiliency, and operational performance across distributed environments.",
+    "technologies": ["Azure", "AWS", "GCP", "Terraform", "Cloud Governance"],
+    "github": "#",
+    "demo": "#"
+  },
+  {
+    "name": "Serverless & Cost Optimization",
+    "slug": "serverless-cost-optimization",
+    "description": "Implemented AWS serverless platforms and infrastructure automation initiatives, reducing operational overhead and driving over $100K in annual cost savings.",
+    "technologies": ["AWS", "Serverless", "Infrastructure Automation", "Cost Optimization"],
+    "github": "#",
+    "demo": "#"
+  },
+  {
+    "name": "Cloud Migration Automation",
+    "slug": "cloud-migration-automation",
+    "description": "Engineered PowerShell-driven Azure tenant migration frameworks, accelerating deployment timelines by 50% while improving standardization and reliability.",
+    "technologies": ["PowerShell", "Azure", "Migration Automation", "Azure CLI"],
+    "github": "#",
+    "demo": "#"
+  },
+  {
+    "name": "Enterprise AI Enablement",
+    "slug": "enterprise-ai-enablement",
+    "description": "Directed architecture and delivery of AI-powered document intelligence and workflow automation solutions, generating over $300K in annual operational savings.",
+    "technologies": ["Azure OpenAI", "Document Intelligence", "RAG", "Workflow Automation"],
+    "github": "#",
+    "demo": "#"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "Terminal Design for a CV Website",
+      "file": "2026-01-terminal-design.md"
+    },
+    {
+      "title": "Cloud Automation Notes",
+      "file": "2026-02-cloud-automation.md"
+    },
+    {
+      "title": "DevOps Lessons That Keep Paying Rent",
+      "file": "2026-03-devops-lessons.md"
+    }
+  ]
+}

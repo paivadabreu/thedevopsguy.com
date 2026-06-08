@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Windows 11 inspired abstract wallpaper">
+  <defs>
+    <linearGradient id="base" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#12315c"/>
+      <stop offset="1" stop-color="#06101c"/>
+    </linearGradient>
+    <radialGradient id="blue" cx="42%" cy="42%" r="50%">
+      <stop offset="0" stop-color="#58c8ff" stop-opacity="0.9"/>
+      <stop offset="0.42" stop-color="#1577c7" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#1577c7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="green" cx="70%" cy="30%" r="42%">
+      <stop offset="0" stop-color="#29dfbd" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#29dfbd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="54"/>
+    </filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#base)"/>
+  <circle cx="760" cy="430" r="520" fill="url(#blue)" filter="url(#blur)"/>
+  <circle cx="1360" cy="340" r="460" fill="url(#green)" filter="url(#blur)"/>
+  <path d="M1090 145c168 123 214 352 96 518-119 167-360 209-539 95-180-114-232-342-116-511 117-169 391-225 559-102Z" fill="#ffffff" opacity="0.055"/>
+  <path d="M780 880c-232-43-378-185-326-317 52-131 280-202 510-158 229 43 376 185 324 316-51 132-278 202-508 159Z" fill="#f2546d" opacity="0.16"/>
+</svg>

@@ -1,0 +1,235 @@
+{
+  "name": "Joshua Bitter",
+  "domain": "joshuabitter.com",
+  "title": "Principal Cloud & DevOps Professional",
+  "email": "joshua.k.bitter@outlook.com",
+  "phone": "(815) 742-0681",
+  "citizenship": "US Citizen",
+  "summary": "Seasoned Principal Cloud & DevOps professional with over a decade of experience leading enterprise cloud transformation initiatives across Azure and AWS environments. Proven track record of architecting scalable multi-cloud solutions that improve operational efficiency, strengthen resiliency, and drive significant cost optimization. Experienced in designing cloud-native platforms, modernizing legacy infrastructure, automating enterprise deployments, and guiding organizations through large-scale modernization efforts. Adept at leading high-performing engineering teams and partnering with executive stakeholders to align technology strategy with business objectives.",
+  "photo": "assets/pfp.jpg",
+  "education": [
+    "Rock Valley College - Rockford, IL",
+    "Associate in Applied Sciences"
+  ],
+  "certifications": [
+    "Azure Solutions Architect Expert",
+    "Azure Administrator Associate",
+    "Microsoft Certified Trainer"
+  ],
+  "skills": [
+    "PowerShell",
+    "ARM Templates",
+    "Bicep",
+    "Terraform",
+    "Azure Cloud Shell",
+    "Git",
+    "GitHub",
+    "YAML",
+    "JSON",
+    "Bash",
+    "Python",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Kubernetes (AKS)",
+    "Helm",
+    "APIM",
+    "Serverless Computing",
+    "Microservices",
+    "Azure Arc",
+    "Azure DevOps",
+    "Azure Monitor",
+    "Azure Security Center",
+    "Azure Virtual WAN",
+    "Infrastructure as Code (IaC)",
+    "CI/CD Automation",
+    "Network Security Groups (NSG)",
+    "VPN Gateway",
+    "ExpressRoute",
+    "Load Balancers",
+    "Application Gateways",
+    "API Management",
+    "Private Endpoints",
+    "Multi-Cloud Architecture",
+    "Disaster Recovery",
+    "High Availability",
+    "Security & Compliance",
+    "Cost Optimization",
+    "Performance Tuning",
+    "Cloud Governance",
+    "Azure Cognitive Services",
+    "AWS SageMaker",
+    "TensorFlow",
+    "PyTorch",
+    "Azure OpenAI",
+    "Few-Shot Prompting",
+    "Retrieval-Augmented Generation (RAG)",
+    "Function Calling",
+    "Genetic Optimization",
+    "Reinforcement Learning"
+  ],
+  "skillSections": [
+    {
+      "label": "Languages & Frameworks",
+      "items": [
+        "PowerShell",
+        "ARM Templates",
+        "Bicep",
+        "Terraform",
+        "Azure Cloud Shell",
+        "Git",
+        "GitHub",
+        "YAML",
+        "JSON",
+        "Bash",
+        "Python"
+      ]
+    },
+    {
+      "label": "Platforms and Services",
+      "items": [
+        "Azure",
+        "AWS",
+        "GCP",
+        "Kubernetes (AKS)",
+        "Helm",
+        "APIM",
+        "Serverless Computing",
+        "Microservices",
+        "Azure Arc",
+        "Azure DevOps",
+        "Azure Monitor",
+        "Azure Security Center",
+        "Azure Virtual WAN",
+        "Infrastructure as Code (IaC)",
+        "CI/CD Automation",
+        "Network Security Groups (NSG)",
+        "VPN Gateway",
+        "ExpressRoute",
+        "Load Balancers",
+        "Application Gateways",
+        "API Management",
+        "Private Endpoints",
+        "Multi-Cloud Architecture",
+        "Disaster Recovery",
+        "High Availability",
+        "Security & Compliance",
+        "Cost Optimization",
+        "Performance Tuning",
+        "Cloud Governance",
+        "Azure Cognitive Services",
+        "AWS SageMaker",
+        "TensorFlow",
+        "PyTorch",
+        "Azure OpenAI"
+      ]
+    },
+    {
+      "label": "AI Techniques",
+      "items": [
+        "Few-Shot Prompting",
+        "Retrieval-Augmented Generation (RAG)",
+        "Function Calling",
+        "Genetic Optimization",
+        "Reinforcement Learning"
+      ]
+    }
+  ],
+  "experienceDetails": [
+    {
+      "company": "Cognizant",
+      "role": "Cloud Engineer III",
+      "period": "April 2021 - April 2022",
+      "highlights": [
+        "Led Azure solution architecture for enterprise clients across healthcare, finance, and public sector verticals.",
+        "Designed and implemented Azure Landing Zones with integrated security baselines, identity management, and cost governance controls.",
+        "Automated CI/CD pipelines using Azure DevOps, increasing release velocity by 60% and reducing human error in deployments.",
+        "Delivered production-grade AKS clusters supporting 10,000+ end users with GitOps principles and hardened container security.",
+        "Guided clients through compliance audits including HIPAA, SOC 2, and ISO 27001."
+      ],
+      "skills": [
+        { "name": "Azure Solution Architecture", "level": 100 },
+        { "name": "Azure Landing Zones & Governance", "level": 95 },
+        { "name": "CI/CD & Azure DevOps", "level": 90 },
+        { "name": "Kubernetes (AKS)", "level": 90 },
+        { "name": "Cloud Security & Compliance", "level": 85 },
+        { "name": "Cost Management & FinOps", "level": 75 }
+      ]
+    },
+    {
+      "company": "Kwik Trip",
+      "role": "Cloud Platform Engineer",
+      "period": "August 2020 - April 2021",
+      "highlights": [
+        "Conducted Azure infrastructure audits that led to a 35% reduction in monthly spend through right-sizing, policy enforcement, and reservation strategies.",
+        "Designed high-availability hybrid architectures connecting on-premises data centers to Azure with ExpressRoute, Azure Arc, and site-to-site VPNs.",
+        "Built resilient big data pipelines and Hadoop environments for government clients.",
+        "Implemented private endpoints, NSGs, and Bastion hosts to align with zero-trust security models."
+      ],
+      "skills": [
+        { "name": "Azure Infrastructure Engineering", "level": 100 },
+        { "name": "Hybrid Cloud Architecture", "level": 95 },
+        { "name": "Network Engineering & Connectivity", "level": 90 },
+        { "name": "Cloud Cost Optimization", "level": 90 },
+        { "name": "Security Architecture (Zero Trust)", "level": 85 },
+        { "name": "Big Data & Hadoop Platforms", "level": 75 }
+      ]
+    },
+    {
+      "company": "Impact Networking",
+      "role": "Cloud Engineer",
+      "period": "February 2020 - August 2020",
+      "highlights": [
+        "Managed full cloud onboarding lifecycle for 18+ SMB and mid-market clients migrating to Azure and Microsoft 365.",
+        "Automated infrastructure deployments with PowerShell and Azure CLI for virtual machines, networking, and identity services.",
+        "Supported remote workforce continuity during COVID-19 through Teams, Intune MDM, and Conditional Access policies.",
+        "Delivered IT assessments, licensing optimizations, and cost forecasting for client renewals."
+      ],
+      "skills": [
+        { "name": "Azure Migrations & Cloud Onboarding", "level": 100 },
+        { "name": "Microsoft 365 Administration", "level": 95 },
+        { "name": "Infrastructure Automation (PowerShell / Azure CLI)", "level": 90 },
+        { "name": "Endpoint Management (Intune)", "level": 85 },
+        { "name": "Identity & Access Management", "level": 85 },
+        { "name": "Cloud Cost & Licensing Optimization", "level": 80 }
+      ]
+    },
+    {
+      "company": "ETS Technology Services",
+      "role": "Network Engineer",
+      "period": "October 2019 - February 2020",
+      "highlights": [
+        "Administered and supported hybrid infrastructure environments across Microsoft Azure and Microsoft 365 ecosystems.",
+        "Deployed and maintained VPNs, firewalls, Azure AD, Intune, and Exchange Online.",
+        "Automated recurring operational tasks using PowerShell and Azure CLI, reducing manual configuration time."
+      ],
+      "skills": [
+        { "name": "Network Administration", "level": 100 },
+        { "name": "VPN & Firewall Management", "level": 95 },
+        { "name": "Microsoft 365 Administration", "level": 90 },
+        { "name": "Azure Infrastructure Support", "level": 85 },
+        { "name": "Identity Management (Azure AD)", "level": 85 },
+        { "name": "PowerShell Automation", "level": 75 }
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "role": "Cloud Support Associate",
+      "period": "February 2016 - October 2019",
+      "highlights": [
+        "Resolved over 1,500 high-priority technical issues impacting global Azure infrastructure while maintaining SLAs in a 24/7 environment.",
+        "Automated VM provisioning workflows, reducing provisioning time by 70%.",
+        "Reduced Azure networking costs by 40% by identifying inefficient routing and data egress patterns.",
+        "Created knowledge base articles and automation scripts that cut average resolution time by 20%."
+      ],
+      "skills": [
+        { "name": "Azure Infrastructure Support", "level": 100 },
+        { "name": "Technical Troubleshooting & Incident Response", "level": 100 },
+        { "name": "Azure Networking", "level": 95 },
+        { "name": "Customer Support & SLA Management", "level": 90 },
+        { "name": "Automation & Scripting (PowerShell)", "level": 85 },
+        { "name": "Knowledge Base & Documentation", "level": 80 }
+      ]
+    }
+  ]
+}
