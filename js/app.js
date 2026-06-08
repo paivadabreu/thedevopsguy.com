@@ -29,11 +29,6 @@ const App = (() => {
 
     state.content = await loadContent();
 
-    if (!sessionStorage.getItem('portfolio-started')) {
-      await playStartup(controller.sessions.get('profile').element);
-      sessionStorage.setItem('portfolio-started', 'true');
-    }
-
     await controller.activate('profile', renderTab);
   }
 
@@ -45,32 +40,6 @@ const App = (() => {
       fetchJson('blog/index.json'),
     ]);
     return { profile, projects: projectsIndex.projects, contact, blogIndex };
-  }
-
-  async function playStartup(session) {
-    session.classList.add('is-active');
-    const hint = Terminal.html('Press <strong>Esc</strong> or click the terminal to skip animation.', 'skip-hint');
-    const startup = [
-      'Microsoft Windows [Version 11.0]',
-      'Copyright (c) Microsoft Corporation.',
-      '',
-      'C:\\Users\\Visitor> whoami',
-      'guest',
-      '',
-      'C:\\Users\\Visitor> launch portfolio',
-      'Initializing modules...',
-      'Loading profile...',
-      'Ready.',
-    ];
-    for (const text of startup) {
-      const element = Terminal.line();
-      session.appendChild(element);
-      state.typewriter.enqueue({ type: 'text', element, text }).enqueue({ type: 'pause', duration: text ? 160 : 240 });
-    }
-    state.typewriter.enqueue({ type: 'node', parent: session, node: hint });
-    await state.typewriter.run();
-    hint.remove();
-    session.replaceChildren();
   }
 
   async function renderTab(name, session) {
